@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive './**/*.test.js' --exclude './node_modules/**/*.js'"
+    "test": "mocha --recursive './**/*.test.js' --exclude './node_modules/**/*.js'",
+    "lint": "./node_modules/.bin/eslint **/*.js"
   },
   "repository": {
     "type": "git",
