@@ -1,0 +1,32 @@
+{
+  "name": "github-issues-browser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive './{,!(node_modules)/**}/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikkanaev/github-issues-browser.git"
+  },
+  "author": "vikkanaev@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikkanaev/github-issues-browser/issues"
+  },
+  "homepage": "https://github.com/vikkanaev/github-issues-browser#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "chai": "^4.2.0",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "mocha": "^8.0.1"
+  }
+}
