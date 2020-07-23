@@ -1,4 +1,4 @@
-// информация: номер issue, дата создания, заголовок, краткое описание.
+// eslint-disable-next-line no-unused-vars
 class Issue {
   constructor(params) {
     this.number = params.number;

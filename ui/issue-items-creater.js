@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+// eslint-disable-next-line no-unused-vars
 class IssueItemsCreator {
   constructor({ data }) {
     this.data = data;

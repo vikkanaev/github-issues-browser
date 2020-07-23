@@ -1,5 +1,5 @@
-// const { ApiClient } = require('./api-client.js');
-
+/* global ApiClient, ParserError, Issue */
+// eslint-disable-next-line no-unused-vars
 class IssuesParser {
   constructor() {
     this.client = new ApiClient();
@@ -12,9 +12,7 @@ class IssuesParser {
       const result = rowIssues.map((e) => new Issue(e));
       return result;
     } catch {
-      throw new PropertyError('Repo or User not found');
+      throw new ParserError('Repo or User not found');
     }
   }
 }
-
-// module.exports = { IssuesParser };

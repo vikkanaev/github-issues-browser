@@ -1,4 +1,4 @@
-/* eslint-disable require-jsdoc */
+// eslint-disable-next-line no-unused-vars
 class ApiClient {
   constructor() {
     this.apiUrl = 'https://api.github.com/repos';
@@ -9,7 +9,7 @@ class ApiClient {
     const { xhr } = this;
     xhr.abort();
     return new Promise((resolve, reject) => {
-      xhr.open('GET', `${this.apiUrl}/${query}/issues?per_page=100`);
+      xhr.open('GET', `${this.apiUrl}/${query}/issues?per_page=30`);
       xhr.onload = () => {
         if (xhr.status !== 200) {
           reject(xhr.status);
@@ -21,5 +21,3 @@ class ApiClient {
     });
   }
 }
-
-// module.exports = { ApiClient };
