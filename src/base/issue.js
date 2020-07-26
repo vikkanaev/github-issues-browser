@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 class Issue {
   constructor(params) {
     this.number = params.number;
@@ -8,3 +7,5 @@ class Issue {
     this.autor = params.user.login;
   }
 }
+
+export default Issue;

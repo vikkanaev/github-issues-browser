@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: [
   ],
+  ignorePatterns: ['dist/*.js'],
   rules: {
     'max-len': ['error', { code: 120 }],
   },

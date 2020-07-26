@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 class ApiClient {
   constructor() {
     this.apiUrl = 'https://api.github.com/repos';
@@ -21,3 +20,5 @@ class ApiClient {
     });
   }
 }
+
+export default ApiClient;

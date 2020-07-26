@@ -1,4 +1,11 @@
-/* global SearchContainer, ResultContainer, Loader, IssuesParser, _ */
+import './style.css';
+import SearchContainer from './ui/search-container';
+import ResultContainer from './ui/result-container';
+import Loader from './ui/loader';
+import IssuesParser from './base/issues-parser';
+
+const _ = require('lodash');
+
 const searchContainer = new SearchContainer('.search');
 const resultContainer = new ResultContainer('.search-result');
 const loader = new Loader('.loader');

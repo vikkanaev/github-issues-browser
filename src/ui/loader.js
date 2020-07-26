@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 class Loader {
   constructor(selector) {
     this.contairer = document.querySelector(selector);
@@ -12,3 +11,5 @@ class Loader {
     this.contairer.style.display = 'none';
   }
 }
+
+export default Loader;
