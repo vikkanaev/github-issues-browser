@@ -1,5 +1,5 @@
-/* global ParserError */
-// eslint-disable-next-line no-unused-vars
+import ParserError from '../base/parser-error';
+
 class ResultContainer {
   constructor(selector) {
     this.contairer = document.querySelector(selector);
@@ -46,3 +46,5 @@ class ResultContainer {
     this.contairer.innerHTML = '';
   }
 }
+
+export default ResultContainer;

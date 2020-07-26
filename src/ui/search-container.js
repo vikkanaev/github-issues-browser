@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 class SearchContainer {
   constructor(selector) {
     this.contairer = document.querySelector(selector);
@@ -15,3 +14,5 @@ class SearchContainer {
     return this.searchButton;
   }
 }
+
+export default SearchContainer;

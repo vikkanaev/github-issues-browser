@@ -1,5 +1,7 @@
-/* global ApiClient, ParserError, Issue */
-// eslint-disable-next-line no-unused-vars
+import ApiClient from './api-client';
+import ParserError from './parser-error';
+import Issue from './issue';
+
 class IssuesParser {
   constructor() {
     this.client = new ApiClient();
@@ -16,3 +18,5 @@ class IssuesParser {
     }
   }
 }
+
+export default IssuesParser;
